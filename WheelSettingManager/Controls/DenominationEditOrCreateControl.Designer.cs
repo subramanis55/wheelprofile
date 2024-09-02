@@ -277,19 +277,19 @@
             // characterBoxCountSpinBox
             // 
             this.characterBoxCountSpinBox.BackColor = System.Drawing.Color.White;
-            this.characterBoxCountSpinBox.ButtonPercent = 20;
-            this.characterBoxCountSpinBox.ButtonsSize = 45;
-            this.characterBoxCountSpinBox.DecrementBtnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.characterBoxCountSpinBox.DecrementBtnForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.characterBoxCountSpinBox.DisplayHeading = true;
-            this.characterBoxCountSpinBox.DrawHeadingBorder = true;
-            this.characterBoxCountSpinBox.DrawLabelBorder = true;
-            this.characterBoxCountSpinBox.HeadingHeight = 30;
-            this.characterBoxCountSpinBox.IconPercent = 40;
-            this.characterBoxCountSpinBox.IncrementBtnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.characterBoxCountSpinBox.IncrementBtnForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            this.characterBoxCountSpinBox.Incrementor = 1D;
-            this.characterBoxCountSpinBox.InvertHeadingPalette = false;
+            //this.characterBoxCountSpinBox.ButtonPercent = 20;
+            //this.characterBoxCountSpinBox.ButtonsSize = 45;
+            //this.characterBoxCountSpinBox.DecrementBtnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            //this.characterBoxCountSpinBox.DecrementBtnForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            //this.characterBoxCountSpinBox.DisplayHeading = true;
+            //this.characterBoxCountSpinBox.DrawHeadingBorder = true;
+            //this.characterBoxCountSpinBox.DrawLabelBorder = true;
+            //this.characterBoxCountSpinBox.HeadingHeight = 30;
+            //this.characterBoxCountSpinBox.IconPercent = 40;
+            //this.characterBoxCountSpinBox.IncrementBtnBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            //this.characterBoxCountSpinBox.IncrementBtnForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            //this.characterBoxCountSpinBox.Incrementor = 1D;
+            //this.characterBoxCountSpinBox.InvertHeadingPalette = false;
             this.characterBoxCountSpinBox.Location = new System.Drawing.Point(224, 15);
             this.characterBoxCountSpinBox.MaterialResource.ColorPaletteName = "";
             this.characterBoxCountSpinBox.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;

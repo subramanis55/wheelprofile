@@ -72,7 +72,8 @@
             this.characterBoxCountSpinBox.IncrementBtnForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
             this.characterBoxCountSpinBox.Incrementor = 1D;
             this.characterBoxCountSpinBox.InvertHeadingPalette = false;
-            this.characterBoxCountSpinBox.Location = new System.Drawing.Point(42, 23);
+            this.characterBoxCountSpinBox.Location = new System.Drawing.Point(56, 28);
+            this.characterBoxCountSpinBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.characterBoxCountSpinBox.MaterialResource.ColorPaletteName = "";
             this.characterBoxCountSpinBox.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.characterBoxCountSpinBox.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
@@ -87,16 +88,16 @@
             this.characterBoxCountSpinBox.MaterialResource.UserColorPalette.SecondaryColor.MainColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.characterBoxCountSpinBox.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.characterBoxCountSpinBox.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
-            this.characterBoxCountSpinBox.MaximumSize = new System.Drawing.Size(0, 70);
+            this.characterBoxCountSpinBox.MaximumSize = new System.Drawing.Size(0, 86);
             this.characterBoxCountSpinBox.MaxValue = 100D;
-            this.characterBoxCountSpinBox.MinimumSize = new System.Drawing.Size(180, 0);
+            this.characterBoxCountSpinBox.MinimumSize = new System.Drawing.Size(240, 0);
             this.characterBoxCountSpinBox.MinValue = 1D;
             this.characterBoxCountSpinBox.Name = "characterBoxCountSpinBox";
-            this.characterBoxCountSpinBox.Size = new System.Drawing.Size(180, 70);
+            this.characterBoxCountSpinBox.Size = new System.Drawing.Size(240, 86);
             this.characterBoxCountSpinBox.TabIndex = 5;
             this.characterBoxCountSpinBox.Text = "CharacterBoxCount";
             this.characterBoxCountSpinBox.Value = 1D;
-            this.characterBoxCountSpinBox.ValueFont = new System.Drawing.Font("Calibri", 19.50653F, System.Drawing.FontStyle.Bold);
+            this.characterBoxCountSpinBox.ValueFont = new System.Drawing.Font("Calibri", 22.73905F, System.Drawing.FontStyle.Bold);
             this.characterBoxCountSpinBox.ValueChanged += new System.EventHandler(this.CharacterBoxCountSpinBoxValueChanged);
             // 
             // languageComboBox
@@ -105,8 +106,9 @@
             this.languageComboBox.Dock = System.Windows.Forms.DockStyle.Left;
             this.languageComboBox.FormattingEnabled = true;
             this.languageComboBox.HintText = "Select language";
-            this.languageComboBox.ItemHeight = 23;
+            this.languageComboBox.ItemHeight = 28;
             this.languageComboBox.Location = new System.Drawing.Point(0, 0);
+            this.languageComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.languageComboBox.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.languageComboBox.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.languageComboBox.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -121,7 +123,7 @@
             this.languageComboBox.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.languageComboBox.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.languageComboBox.Name = "languageComboBox";
-            this.languageComboBox.Size = new System.Drawing.Size(250, 29);
+            this.languageComboBox.Size = new System.Drawing.Size(332, 34);
             this.languageComboBox.TabIndex = 3;
             this.languageComboBox.SelectedIndexChanged += new System.EventHandler(this.languageComboBoxSelectedIndexChanged);
             // 
@@ -132,7 +134,8 @@
             this.nameTextBox.HeadingPercent = 10;
             this.nameTextBox.HideSelection = true;
             this.nameTextBox.HintText = "Wheel Name ";
-            this.nameTextBox.Location = new System.Drawing.Point(10, 0);
+            this.nameTextBox.Location = new System.Drawing.Point(13, 0);
+            this.nameTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.nameTextBox.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.nameTextBox.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.nameTextBox.MaterialResource.UserColorPalette.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -150,7 +153,7 @@
             this.nameTextBox.MaximumSize = new System.Drawing.Size(350, 0);
             this.nameTextBox.MinimumSize = new System.Drawing.Size(0, 36);
             this.nameTextBox.Name = "nameTextBox";
-            this.nameTextBox.Size = new System.Drawing.Size(350, 44);
+            this.nameTextBox.Size = new System.Drawing.Size(350, 49);
             this.nameTextBox.TabIndex = 2;
             this.nameTextBox.TabStop = false;
             // 
@@ -160,7 +163,8 @@
             this.mainPanel.Controls.Add(this.charBoxesMainPanel);
             this.mainPanel.Controls.Add(this.languageCharBoxesMainPanel);
             this.mainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.mainPanel.Location = new System.Drawing.Point(0, 128);
+            this.mainPanel.Location = new System.Drawing.Point(0, 158);
+            this.mainPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.mainPanel.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.mainPanel.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.mainPanel.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -175,7 +179,7 @@
             this.mainPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.mainPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.mainPanel.Name = "mainPanel";
-            this.mainPanel.Size = new System.Drawing.Size(1028, 472);
+            this.mainPanel.Size = new System.Drawing.Size(1371, 580);
             this.mainPanel.TabIndex = 2;
             // 
             // charBoxesMainPanel
@@ -183,7 +187,8 @@
             this.charBoxesMainPanel.BorderRadius = ((byte)(0));
             this.charBoxesMainPanel.Controls.Add(this.charBoxesContinarPanel);
             this.charBoxesMainPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.charBoxesMainPanel.Location = new System.Drawing.Point(498, 0);
+            this.charBoxesMainPanel.Location = new System.Drawing.Point(664, 0);
+            this.charBoxesMainPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.charBoxesMainPanel.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.charBoxesMainPanel.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.charBoxesMainPanel.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -199,15 +204,15 @@
             this.charBoxesMainPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.charBoxesMainPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.charBoxesMainPanel.Name = "charBoxesMainPanel";
-            this.charBoxesMainPanel.Padding = new System.Windows.Forms.Padding(10, 15, 15, 15);
-            this.charBoxesMainPanel.Size = new System.Drawing.Size(530, 472);
+            this.charBoxesMainPanel.Padding = new System.Windows.Forms.Padding(13, 18, 20, 18);
+            this.charBoxesMainPanel.Size = new System.Drawing.Size(707, 580);
             this.charBoxesMainPanel.TabIndex = 3;
             // 
             // charBoxesContinarPanel
             // 
             this.charBoxesContinarPanel.AutoScroll = true;
             this.charBoxesContinarPanel.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.charBoxesContinarPanel.Location = new System.Drawing.Point(29, 28);
+            this.charBoxesContinarPanel.Location = new System.Drawing.Point(39, 34);
             this.charBoxesContinarPanel.Margin = new System.Windows.Forms.Padding(0);
             this.charBoxesContinarPanel.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.charBoxesContinarPanel.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
@@ -224,8 +229,8 @@
             this.charBoxesContinarPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.charBoxesContinarPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.charBoxesContinarPanel.Name = "charBoxesContinarPanel";
-            this.charBoxesContinarPanel.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.charBoxesContinarPanel.Size = new System.Drawing.Size(390, 400);
+            this.charBoxesContinarPanel.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.charBoxesContinarPanel.Size = new System.Drawing.Size(520, 492);
             this.charBoxesContinarPanel.TabIndex = 2;
             this.charBoxesContinarPanel.Resize += new System.EventHandler(this.CharBoxesContinarPanelResize);
             // 
@@ -235,6 +240,7 @@
             this.languageCharBoxesMainPanel.Controls.Add(this.languageCharacterContainerPanel);
             this.languageCharBoxesMainPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.languageCharBoxesMainPanel.Location = new System.Drawing.Point(0, 0);
+            this.languageCharBoxesMainPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.languageCharBoxesMainPanel.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.languageCharBoxesMainPanel.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.languageCharBoxesMainPanel.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -249,8 +255,8 @@
             this.languageCharBoxesMainPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.languageCharBoxesMainPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.languageCharBoxesMainPanel.Name = "languageCharBoxesMainPanel";
-            this.languageCharBoxesMainPanel.Padding = new System.Windows.Forms.Padding(15, 15, 5, 15);
-            this.languageCharBoxesMainPanel.Size = new System.Drawing.Size(498, 472);
+            this.languageCharBoxesMainPanel.Padding = new System.Windows.Forms.Padding(20, 18, 7, 18);
+            this.languageCharBoxesMainPanel.Size = new System.Drawing.Size(664, 580);
             this.languageCharBoxesMainPanel.TabIndex = 5;
             // 
             // languageCharacterContainerPanel
@@ -258,7 +264,7 @@
             this.languageCharacterContainerPanel.AllowDrop = true;
             this.languageCharacterContainerPanel.AutoScroll = true;
             this.languageCharacterContainerPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.languageCharacterContainerPanel.Location = new System.Drawing.Point(15, 15);
+            this.languageCharacterContainerPanel.Location = new System.Drawing.Point(20, 18);
             this.languageCharacterContainerPanel.Margin = new System.Windows.Forms.Padding(0);
             this.languageCharacterContainerPanel.MaterialResource.CustomPaletteMode.UseCustomPalette = true;
             this.languageCharacterContainerPanel.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
@@ -276,8 +282,8 @@
             this.languageCharacterContainerPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.languageCharacterContainerPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.languageCharacterContainerPanel.Name = "languageCharacterContainerPanel";
-            this.languageCharacterContainerPanel.Padding = new System.Windows.Forms.Padding(10, 0, 10, 0);
-            this.languageCharacterContainerPanel.Size = new System.Drawing.Size(478, 442);
+            this.languageCharacterContainerPanel.Padding = new System.Windows.Forms.Padding(13, 0, 13, 0);
+            this.languageCharacterContainerPanel.Size = new System.Drawing.Size(637, 544);
             this.languageCharacterContainerPanel.TabIndex = 4;
             this.languageCharacterContainerPanel.DragDrop += new System.Windows.Forms.DragEventHandler(this.LanguageCharacterContainerPanelDragDrop);
             this.languageCharacterContainerPanel.DragEnter += new System.Windows.Forms.DragEventHandler(this.LanguageCharacterContainerPanelDragEnter);
@@ -287,7 +293,8 @@
             this.CharacterBoxCountSpinBoxParentPanel.BorderRadius = ((byte)(0));
             this.CharacterBoxCountSpinBoxParentPanel.Controls.Add(this.characterBoxCountSpinBox);
             this.CharacterBoxCountSpinBoxParentPanel.Dock = System.Windows.Forms.DockStyle.Right;
-            this.CharacterBoxCountSpinBoxParentPanel.Location = new System.Drawing.Point(708, 5);
+            this.CharacterBoxCountSpinBoxParentPanel.Location = new System.Drawing.Point(944, 6);
+            this.CharacterBoxCountSpinBoxParentPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CharacterBoxCountSpinBoxParentPanel.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.CharacterBoxCountSpinBoxParentPanel.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.CharacterBoxCountSpinBoxParentPanel.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -302,8 +309,8 @@
             this.CharacterBoxCountSpinBoxParentPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.CharacterBoxCountSpinBoxParentPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.CharacterBoxCountSpinBoxParentPanel.Name = "CharacterBoxCountSpinBoxParentPanel";
-            this.CharacterBoxCountSpinBoxParentPanel.Padding = new System.Windows.Forms.Padding(20, 0, 30, 0);
-            this.CharacterBoxCountSpinBoxParentPanel.Size = new System.Drawing.Size(255, 113);
+            this.CharacterBoxCountSpinBoxParentPanel.Padding = new System.Windows.Forms.Padding(27, 0, 40, 0);
+            this.CharacterBoxCountSpinBoxParentPanel.Size = new System.Drawing.Size(340, 140);
             this.CharacterBoxCountSpinBoxParentPanel.TabIndex = 22;
             // 
             // materialCheckBox1
@@ -312,7 +319,8 @@
             this.materialCheckBox1.Checked = false;
             this.materialCheckBox1.Dock = System.Windows.Forms.DockStyle.Left;
             this.materialCheckBox1.Index = 0;
-            this.materialCheckBox1.Location = new System.Drawing.Point(25, 5);
+            this.materialCheckBox1.Location = new System.Drawing.Point(33, 6);
+            this.materialCheckBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.materialCheckBox1.MaterialResource.ManualDisableColor = true;
             this.materialCheckBox1.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.materialCheckBox1.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
@@ -329,7 +337,7 @@
             this.materialCheckBox1.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.materialCheckBox1.MaxSize = 20;
             this.materialCheckBox1.Name = "materialCheckBox1";
-            this.materialCheckBox1.Size = new System.Drawing.Size(166, 20);
+            this.materialCheckBox1.Size = new System.Drawing.Size(209, 20);
             this.materialCheckBox1.TabIndex = 9;
             this.materialCheckBox1.Text = "IsNativeLanguage";
             // 
@@ -340,6 +348,7 @@
             this.backButton.IconDisplayType = MaterialLibrary.IconType.ArrowLeft;
             this.backButton.IconString = "ArrowLeft";
             this.backButton.Location = new System.Drawing.Point(0, 0);
+            this.backButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.backButton.MaterialResource.InvertColorPalette = true;
             this.backButton.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.backButton.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
@@ -354,11 +363,11 @@
             this.backButton.MaterialResource.UserColorPalette.SecondaryColor.MainColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.backButton.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.backButton.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
-            this.backButton.MaximumSize = new System.Drawing.Size(50, 50);
-            this.backButton.MinimumSize = new System.Drawing.Size(0, 45);
+            this.backButton.MaximumSize = new System.Drawing.Size(67, 62);
+            this.backButton.MinimumSize = new System.Drawing.Size(0, 55);
             this.backButton.Name = "backButton";
             this.backButton.Selectable = false;
-            this.backButton.Size = new System.Drawing.Size(50, 50);
+            this.backButton.Size = new System.Drawing.Size(67, 62);
             this.backButton.TabIndex = 21;
             this.backButton.ToolTipDirection = MaterialLibrary.Direction.TopLeft;
             this.backButton.ToolTipText = "Back";
@@ -373,6 +382,7 @@
             this.TopPanel.Controls.Add(this.panel1);
             this.TopPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.TopPanel.Location = new System.Drawing.Point(0, 0);
+            this.TopPanel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TopPanel.MaterialResource.CustomPaletteMode.UseCustomPalette = true;
             this.TopPanel.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.TopPanel.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
@@ -388,8 +398,8 @@
             this.TopPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.TopPanel.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.TopPanel.Name = "TopPanel";
-            this.TopPanel.Padding = new System.Windows.Forms.Padding(5, 5, 5, 10);
-            this.TopPanel.Size = new System.Drawing.Size(1028, 128);
+            this.TopPanel.Padding = new System.Windows.Forms.Padding(7, 6, 7, 12);
+            this.TopPanel.Size = new System.Drawing.Size(1371, 158);
             this.TopPanel.TabIndex = 3;
             // 
             // materialPanel2
@@ -397,7 +407,8 @@
             this.materialPanel2.BorderRadius = ((byte)(0));
             this.materialPanel2.Controls.Add(this.materialPanel3);
             this.materialPanel2.Controls.Add(this.nameTextBox);
-            this.materialPanel2.Location = new System.Drawing.Point(5, 5);
+            this.materialPanel2.Location = new System.Drawing.Point(7, 6);
+            this.materialPanel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.materialPanel2.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.materialPanel2.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.materialPanel2.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -412,8 +423,8 @@
             this.materialPanel2.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.materialPanel2.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.materialPanel2.Name = "materialPanel2";
-            this.materialPanel2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.materialPanel2.Size = new System.Drawing.Size(522, 113);
+            this.materialPanel2.Padding = new System.Windows.Forms.Padding(13, 0, 0, 0);
+            this.materialPanel2.Size = new System.Drawing.Size(696, 139);
             this.materialPanel2.TabIndex = 24;
             // 
             // materialPanel3
@@ -422,7 +433,8 @@
             this.materialPanel3.Controls.Add(this.materialPanel1);
             this.materialPanel3.Controls.Add(this.languageComboBox);
             this.materialPanel3.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.materialPanel3.Location = new System.Drawing.Point(10, 68);
+            this.materialPanel3.Location = new System.Drawing.Point(13, 84);
+            this.materialPanel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.materialPanel3.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.materialPanel3.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.materialPanel3.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -437,7 +449,7 @@
             this.materialPanel3.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.materialPanel3.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.materialPanel3.Name = "materialPanel3";
-            this.materialPanel3.Size = new System.Drawing.Size(512, 45);
+            this.materialPanel3.Size = new System.Drawing.Size(683, 55);
             this.materialPanel3.TabIndex = 4;
             // 
             // materialPanel1
@@ -445,7 +457,8 @@
             this.materialPanel1.BorderRadius = ((byte)(0));
             this.materialPanel1.Controls.Add(this.materialCheckBox1);
             this.materialPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.materialPanel1.Location = new System.Drawing.Point(250, 0);
+            this.materialPanel1.Location = new System.Drawing.Point(332, 0);
+            this.materialPanel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.materialPanel1.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.materialPanel1.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.materialPanel1.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -460,8 +473,8 @@
             this.materialPanel1.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.materialPanel1.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.materialPanel1.Name = "materialPanel1";
-            this.materialPanel1.Padding = new System.Windows.Forms.Padding(25, 5, 0, 0);
-            this.materialPanel1.Size = new System.Drawing.Size(260, 45);
+            this.materialPanel1.Padding = new System.Windows.Forms.Padding(33, 6, 0, 0);
+            this.materialPanel1.Size = new System.Drawing.Size(347, 55);
             this.materialPanel1.TabIndex = 10;
             // 
             // panel1
@@ -469,9 +482,10 @@
             this.panel1.Controls.Add(this.deleteButton);
             this.panel1.Controls.Add(this.backButton);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel1.Location = new System.Drawing.Point(963, 5);
+            this.panel1.Location = new System.Drawing.Point(1284, 6);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(60, 113);
+            this.panel1.Size = new System.Drawing.Size(80, 140);
             this.panel1.TabIndex = 23;
             // 
             // deleteButton
@@ -481,7 +495,8 @@
             this.deleteButton.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.deleteButton.IconDisplayType = MaterialLibrary.IconType.Delete;
             this.deleteButton.IconString = "Delete";
-            this.deleteButton.Location = new System.Drawing.Point(0, 63);
+            this.deleteButton.Location = new System.Drawing.Point(0, 78);
+            this.deleteButton.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.deleteButton.MaterialResource.CustomPaletteMode.UseCustomPalette = true;
             this.deleteButton.MaterialResource.InvertColorPalette = true;
             this.deleteButton.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
@@ -497,11 +512,11 @@
             this.deleteButton.MaterialResource.UserColorPalette.SecondaryColor.MainColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
             this.deleteButton.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.deleteButton.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
-            this.deleteButton.MaximumSize = new System.Drawing.Size(50, 50);
-            this.deleteButton.MinimumSize = new System.Drawing.Size(0, 45);
+            this.deleteButton.MaximumSize = new System.Drawing.Size(67, 62);
+            this.deleteButton.MinimumSize = new System.Drawing.Size(0, 55);
             this.deleteButton.Name = "deleteButton";
             this.deleteButton.Selectable = false;
-            this.deleteButton.Size = new System.Drawing.Size(50, 50);
+            this.deleteButton.Size = new System.Drawing.Size(67, 62);
             this.deleteButton.TabIndex = 22;
             this.deleteButton.ToolTipDirection = MaterialLibrary.Direction.TopLeft;
             this.deleteButton.ToolTipText = "Back";
@@ -512,10 +527,11 @@
             // 
             // WheelSettingCreateOrEditControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.mainPanel);
             this.Controls.Add(this.TopPanel);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaterialResource.UserColorPalette.DisabledColor.MainColor = System.Drawing.Color.DarkGray;
             this.MaterialResource.UserColorPalette.DisabledColor.TextColor = System.Drawing.Color.DimGray;
             this.MaterialResource.UserColorPalette.PrimaryColor.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -530,7 +546,7 @@
             this.MaterialResource.UserColorPalette.SecondaryDisabledColor.MainColor = System.Drawing.Color.DimGray;
             this.MaterialResource.UserColorPalette.SecondaryDisabledColor.TextColor = System.Drawing.Color.DarkGray;
             this.Name = "WheelSettingCreateOrEditControl";
-            this.Size = new System.Drawing.Size(1028, 600);
+            this.Size = new System.Drawing.Size(1371, 738);
             this.Resize += new System.EventHandler(this.WheelSettingCreateOrEditControlResize);
             this.mainPanel.ResumeLayout(false);
             this.charBoxesMainPanel.ResumeLayout(false);

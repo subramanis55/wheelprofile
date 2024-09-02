@@ -108,6 +108,12 @@
     </Compile>
     <Compile Include="LanguagesManager\LanguageCharactersManager.cs" />
     <Compile Include="LanguagesManager\LanguageCharactersHolder.cs" />
+    <Compile Include="MaterialSpinTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MaterialSpinTextBox.Designer.cs">
+      <DependentUpon>MaterialSpinTextBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Controls\ContainerBoxEdit.resx">
@@ -130,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaterialSpinTextBox.resx">
+      <DependentUpon>MaterialSpinTextBox.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -19,13 +19,15 @@ namespace WheelSettingManager
 {
     public partial class Form1 : MaterialAnimatedForm
     {
-
+        private InputLanguage defaultLanguage;
         public Form1()
         {
 
             InitializeComponent();
+            defaultLanguage = InputLanguage.CurrentInputLanguage;
             LanguageCharactersManager.Initialize();
-
+            InputLanguageChanged += Form1InputLanguageChanged;
+            KeyPreview = true;
             Load += DenominationPatternCreateFormLoad;
             WheelSettings = new List<WheelSettings>(){new WheelSettings() { ID = 1, Name ="aaa",CharactersSet=new List<string>() { "அ", "ஆ", "இ", "ஈ", "உ", "ஊ", "எ", "ஏ", "ஐ", "ஒ", "ஓ", "ஔ" } }, new WheelSettings() { ID=2,Name = "bbb", CharactersSet = new List<string>() { "কা", "কি", "কী", "কু", "কূ", "কৃ", "কে", "কৈ", "কো", "কৌ" } ,}, new WheelSettings (){ ID = 2, Name = "bbb", CharactersSet = new List<string>() {"あ", "い", "う", "え", "お",
             "か", "き", "く", "け", "こ",  // K consonants
@@ -60,7 +62,26 @@ namespace WheelSettingManager
             mainPanel.Controls.Add(wheelSettingProfileViewControl);
             //DenominationEditOrCreateControl denominationEditOrCreateControl = new DenominationEditOrCreateControl() { Dock = Dock = DockStyle.Fill };
             //mainPanel.Controls.Add(denominationEditOrCreateControl);
+            KeyPress += Form1_KeyPress;
         }
+
+        private void Form1_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //if (ActiveControl == textBox1)
+            //{
+            //    e.Handled = true; // Prevents the form from showing any text input
+            //}
+        }
+
+        private void Form1InputLanguageChanged(object sender, InputLanguageChangedEventArgs e)
+        {
+            //if (ActiveControl != textBox1)
+            //{
+            //    // Reset the input language to the default one
+            //    InputLanguage.CurrentInputLanguage = defaultLanguage;
+            //}
+        }
+
         public bool isWheelSettingsEditMode;
         private bool isWheelSettingsCreateMode;
         public bool IsWheelSettingsEditMode

@@ -35,6 +35,7 @@
             this.wheelProfileEditBtn = new MaterialLibrary.MaterialCircleButton();
             this.wheelProfileCreateBtn = new MaterialLibrary.MaterialCircleButton();
             this.mainPanel = new MaterialLibrary.MaterialPanel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.HeadingPanel.SuspendLayout();
             this.BottomResizePanel.SuspendLayout();
             this.ButtonsPanel.SuspendLayout();
@@ -392,6 +393,7 @@
             // materialPanel1
             // 
             this.materialPanel1.BorderRadius = ((byte)(0));
+            this.materialPanel1.Controls.Add(this.textBox1);
             this.materialPanel1.Controls.Add(this.materialCircleButton2);
             this.materialPanel1.Controls.Add(this.wheelProfileDeleteBtn);
             this.materialPanel1.Controls.Add(this.wheelProfileEditBtn);
@@ -563,9 +565,17 @@
             this.mainPanel.Size = new System.Drawing.Size(1107, 575);
             this.mainPanel.TabIndex = 16;
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Calibri", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(385, 0);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 56);
+            this.textBox1.TabIndex = 26;
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 23F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1113, 676);
             this.Controls.Add(this.mainPanel);
@@ -600,6 +610,7 @@
             this.ButtonsPanel.ResumeLayout(false);
             this.HeadingContainer.ResumeLayout(false);
             this.materialPanel1.ResumeLayout(false);
+            this.materialPanel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -611,6 +622,7 @@
         private MaterialLibrary.MaterialCircleButton wheelProfileDeleteBtn;
         private MaterialLibrary.MaterialCircleButton wheelProfileEditBtn;
         private MaterialLibrary.MaterialCircleButton wheelProfileCreateBtn;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
